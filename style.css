@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: dimgray;
+}
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(255, 94, 0);
+}
+ul{
+    list-style: none;
+    background-color: rgb(255, 94, 0);
+}
+.nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all-nav-element{
+    height: 100%;
+}
+.all-nav-element:hover{
+    background-color: rgb(49, 49, 49);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav-link{
+    height: 100%;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+.Wp-links{
+    position: absolute;
+    top: 5vh;
+    display: none;
+}
+.Wp-element{
+    height: 5vh;
+}
+.Wp-link{
+    width: 6rem;
+    margin: 5px;
+    height: 5vh;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+.nav-element:hover .Wp-links{
+    display: block;
+}
+.Wd-element, .T1-element, .T2-element{
+    height: 5vh;
+}
+.Wd-links{
+    position: absolute;
+    top: 5vh;
+    display: none;
+}
+.nav-element:hover .Wd-links{
+    display: block;
+}
+.T1-links{
+    position: absolute;
+    top: 10vh;
+    left: 7.1rem;
+    display: none;
+}
+.Wd-element:hover .T1-links{
+    display: block;
+}
+.T2-links{
+    position: absolute;
+    top: 10vh;
+    left: 7.1rem;
+    display: none;
+}
+.T1-element:hover .T2-links{
+    display: block;
+}
+.Wd-link{
+    width: 6.5rem;
+    margin: 5px;
+    height: 5vh;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+.T1-link{
+    width: 6.5rem;
+    margin: 5px;
+    height: 5vh;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+.T2-link{
+    width: 6.5rem;
+    margin: 5px;
+    height: 5vh;
+    margin: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
